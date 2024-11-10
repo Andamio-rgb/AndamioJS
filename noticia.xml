@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE noticia[
+    <!ELEMENT noticia (autor)>
+    <!ELEMENT autor (nombre, info)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT info (#PCDATA)>
+]>
+
+<noticia>
+    <autor>
+        <nombre>Eiichiro Oda</nombre>
+        <info>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum nihil perferendis. Porro tempora, laudantium dolorum magni reiciendis odio veritatis sint cumque dolorem fugiat minima pariatur nisi labore sed nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum nihil perferendis. Porro tempora, laudantium dolorum magni reiciendis odio veritatis sint cumque dolorem fugiat minima pariatur nisi labore sed nostrum.</info>
+    </autor>
+</noticia>

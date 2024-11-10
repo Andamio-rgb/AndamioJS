@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/> 
+        <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+        <!--<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />-->
+        <link rel="stylesheet" href="../css/tra.css">
+        <title>Contacto</title>
+    </head>
+    <body onwheel="mostrar()">
+        <header class="header-index">
+            <h1><a href="../index.html">yoque<span>cono</span>se</a></h1>
+            <nav class="nav-index">
+                <a href="../index.html" class="links-index home">home</a>
+                <a href="./galeria.html" class="links-index" id="galeria">galería</a>
+                <a href="./presupuesto.html" class="links-index" id="presupuesto">presupuesto</a>
+                <a href="./contacto.html" class="links-index" id="contacto">contacto</a>
+            </nav>
+            <div class="registro-head">
+                <a href="./views/presupuesto.html">Sign In</a>
+            </div>
+        </header>
+        <main class="contacto-main">
+            <div class="contact-div">
+                <div class="contact-son">
+                    <div id="mapa"></div>
+                    <div class="datos-cont">
+                        <h1>datos de contacto</h1>
+                        <div class="items-text">
+                            <p>Nombre: yo que cono se</p>
+                        </div>
+                        <div class="items-text">
+                            <p>E-mail: yoqueconose.@gmail.com</p>
+                        </div>
+                        <div class="items-text">
+                            <p>Teléfono: 976 54 22 00</p>
+                        </div>
+                        <div class="items-text">
+                            <p>Ubicación: Vía Ibérica, 1, 50009 Zaragoza</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="arriba">
+                <p><a href="#">Volver arriba</a></p>
+            </div>
+            <div class="info-foot">
+                <div class="info">
+                    <div class="info-itms">
+                        <div class="logo">
+                            <h1><a href="index.html">yoque<span>cono</span>se</a></h1>
+                        </div>
+                        <div class="infor-son">
+                            <h2>Aviso Legal</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------ Redes de la empresa ------------>
+            <div class="footer-redes">
+                <ul>
+                    <!--------- Los links son de redes inventadas --------->
+                    <li><a href="https://www.facebook.com/epicgames/?locale=es_ES"><img src="https://png.pngtree.com/element_our/md/20180520/md_5b0125139fe89.jpg" alt="logotipo facebook" width="640" height="640"></a></li>
+                    <li><a href="https://www.instagram.com/epicgames/?hl=es"><img src="https://i.pinimg.com/originals/39/4a/7a/394a7aaecd6b8ce44528649681d9fa05.jpg" alt="logotipo instagram" width="640" height="640"></a></li>
+                    <li><a href="https://x.com/EpicGamesES"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdcxIVtG9-OGROIq2i48rTDGoYyczzkys-zg&s" alt="logotipo twitter" width="225" height="225"></a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="    crossorigin=""> </script> 
+        <!--<script src="https://www.gstatic.com/charts/loader.js"></script>-->
+        <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+        <!--<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>-->
+        <script src="../js/contacto.js"></script>
+    </body>
+</html>

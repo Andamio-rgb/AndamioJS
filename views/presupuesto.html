@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/tra.css">
+        <title>Presupuesto</title>
+    </head>
+    <body>
+        <header class="header-index">
+            <h1><a href="../index.html">yoque<span>cono</span>se</a></h1>
+            <nav class="nav-index">
+                <a href="../index.html" class="links-index home">home</a>
+                <a href="./galeria.html" class="links-index" id="galeria">galería</a>
+                <a href="./presupuesto.html" class="links-index" id="presupuesto">presupuesto</a>
+                <a href="./contacto.html" class="links-index" id="contacto">contacto</a>
+            </nav>
+            <div class="registro-head">
+                <a href="/views/presupuesto.html">Sign In</a>
+            </div>
+        </header>
+        <main>
+            <section class="formulario-container">
+                <form action="#" method="post" class="formulario">
+                    <div class="formu-cont">
+                        <h1 id="title-form">Formulario de Solicitud</h1>
+                        <div class="formu">
+                            <div class="form-son">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre" required>
+                            </div>
+                            <div class="form-son">
+                                <label for="apellido">Apellidos</label>
+                                <input type="text" name="apellido" id="apellido" required>
+                            </div>
+                            <div class="form-son">
+                                <label for="telefono">Teléfono de Contacto</label>
+                                <input type="text" name="telefono" id="telefono" required>
+                            </div>
+                            <div class="form-son" id="correo">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="text" name="email" id="email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="presu-cont">
+                        <div class="presupuesto">
+                            <h2>Presupuesto</h2>
+                            <div class="form-son">
+                                <label>Producto</label>
+                                <select name="producto" id="producto">
+                                    <option id="fisico" value="fisico">Físico</option>
+                                    <option id="digital" value="digital">Digital</option>
+                                </select>
+                            </div>
+                            <div class="form-son">
+                                <label for="plazo">Plazo descuento</label>
+                                <input placeholder="meses" class="inpu" type="number" name="plazo" id="plazo" min="1" max="12" required>
+                            </div>
+                            <div class="form-son" id="extra">
+                                <p>Elige los extras para el producto</p>
+                                <div class="opcion">
+                                    <input type="checkbox" name="calidad" id="calidad"><label for="calidad">4k</label>
+                                    <input type="checkbox" name="poster" id="poster"><label for="poster">Poster</label>
+                                    <input type="checkbox" name="personalizar" id="personalizar"><label for="personalizar">Personalizar</label>
+                                </div>
+                            </div>
+                            <div class="form-son" id="pres-result">
+                                <label for="pres">Presupuesto estimado</label>
+                                <input placeholder="0 €" class="inpu" type="text" name="pres" id="pres" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="polit-contain">
+                        <div class="politica">
+                            <label for="politica">Política de Privacidad</label>
+                            <input name="politica" type="checkbox" id="politica" required>
+                        </div>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" id="enviar" value="Enviar">
+                        <input type="reset" id="reset" value="Reset">
+                    </div>
+                </form>
+            </section>
+            <footer>
+                <div class="arriba">
+                    <p><a href="#">Volver arriba</a></p>
+                </div>
+                <div class="info-foot">
+                    <div class="info">
+                        <div class="info-itms">
+                            <div class="logo">
+                                <h1><a href="index.html">yoque<span>cono</span>se</a></h1>
+                            </div>
+                            <div class="infor-son">
+                                <h2>Aviso Legal</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------ Redes de la empresa ------------>
+                <div class="footer-redes">
+                    <ul>
+                        <!--------- Los links son de redes inventadas --------->
+                        <li><a href="https://www.facebook.com/epicgames/?locale=es_ES"><img src="https://png.pngtree.com/element_our/md/20180520/md_5b0125139fe89.jpg" alt="logotipo facebook" width="640" height="640"></a></li>
+                        <li><a href="https://www.instagram.com/epicgames/?hl=es"><img src="https://i.pinimg.com/originals/39/4a/7a/394a7aaecd6b8ce44528649681d9fa05.jpg" alt="logotipo instagram" width="640" height="640"></a></li>
+                        <li><a href="https://x.com/EpicGamesES"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdcxIVtG9-OGROIq2i48rTDGoYyczzkys-zg&s" alt="logotipo twitter" width="225" height="225"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+
+        <script src="../js/presupuesto.js"></script>
+    </body>
+</html>
